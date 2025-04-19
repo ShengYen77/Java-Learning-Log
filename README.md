@@ -1,4 +1,4 @@
-# 📚Java-了解Java的起源與發展、特性、優勢、應用領域探索
+# 📚Java-了解Java的起源與發展、特性、優勢
 
 Java 是由 Sun Microsystems 於 1995 年發表的高階程式語言。(由James Gosling 及 其團隊於1991年開始開發)（現已被Oracle收購）
 
