@@ -30,5 +30,65 @@
 
 這次我就是用IntelliJ進行學習。
 
-IDE就是(整合開發環境Integrated Development Environment)
+# IDE就是(整合開發環境Integrated Development Environment)
+
+大致上安裝完成後，我選擇JDK版本為java 17.0.14
+
+📌步驟1.專案建立
+
+-選擇「New Project」 → 「Java」→設定專案名稱(untitled)與路徑 (通常我預設不會特別去改,不然剛入門的我會亂掉呢😥)
+
+-使用「Maven」建置系統，並指定套件名稱(Package Name)
+
+-選擇JDK版本 : JDK → Download JDK → JetBrains Runtime17.0.12
+
+🔍這裡稍微解釋一下「Maven」&「Package Name」
+
+Maven是指一個建置工具，並專門處理
+
+→管理專案的依賴(例如外部的 Java 函式庫)
+
+→建立專案的組件（例如：.jar、.war 檔案）
+
+→整合測試、編譯、部署等工作流程
+
+Package Name是指一種用來組織類別（Classes）的方式。
+
+使用套件可以讓我們將類別分組、避免命名衝突，並讓程式更有結構。
+
+套件名稱通常是反向的網域名稱（例如：com.example）。
+
+com.example：這是一個命名規範，通常會使用反向的域名來命名，避免衝突。
+
+假設你的公司網域是 example.com，那麼你可以將套件名稱設定為 com.example。
+
+就是這個反向意思😉
+
+📌步驟2.編寫程式
+
+-系統會自動產生資料夾結構 : 
+
+你的專案資料夾 → src/ → main/ → java/
+
+所以src/main/java/ 是你放Java原始碼(.java檔案)的資料夾 (就是路徑的概念)
+
+-輸入main快速生成主方法，使用sout快捷鍵生成System.out.printIn()
+
+📌步驟3.編譯與執行
+
+-點擊工具列的「Run」按鈕(像綠色三角形的圖案，顯示在代碼行左邊)或者快捷鍵(Ctrl+Shift+F10)自動編譯並執行
+
+-終端直接顯示輸出結果，無須手動輸入指令
+
+🚀 我學會的小技巧：
+
+輸入 main ➜ 按下 Tab → 自動補出 public static void main(String[] args)...
+
+輸入 sout ➜ 按下 Tab → 自動補出 System.out.println();
+
+是 IntelliJ 的超快鍵功能，會大大提升你寫程式的效率！😊
+
+# 示範程式碼 Hi IntelliJ
+
+
 
