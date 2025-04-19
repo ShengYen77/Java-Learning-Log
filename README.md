@@ -51,10 +51,9 @@ Java 的最大特色是「Write Once, Run Anywhere（一次編寫，到處運行
 | 📌7. 擁有龐大的生態系 | 有完整的標準函式庫（API）、開發框架（Spring、Hibernate 等）和大量開源資源。 |
 
 
-來學習一下GC概念，🔍 程式碼解析如下(58~65行)
+來學習一下GC概念，🔍 程式碼解析如下
 | 範例程式碼：Java 垃圾回收 |
 |---------------------------|
-| ```java
 public class GCDemo {
     public static void main(String[] args) {
         Object obj1 = new Object(); // 建立一個 Object 物件，obj1 指向它
@@ -63,11 +62,9 @@ public class GCDemo {
         obj2 = obj1;                // obj2 現在也變成 null，原本的第二個物件也變成垃圾
     }
 }
-``` |
-✅ 結果：兩個物件都變成了「無人參考的垃圾」，等待 JVM 的 GC 回收！
+✅ 結果：兩個物件都變成了「無人參考的垃圾」，等待 JVM 的 GC 回收！|
 
-
-# 🌍 Java 的跨平台特性解析
+# ☕ Java 的跨平台特性解析
 Java 程式只需要撰寫一次，不用針對每一種作業系統分別開發，就能在多種作業系統上執行，例如：
 Windows、macOS、Linux、Unix、Android
 → 關鍵在於 JVM（Java Virtual Machine）Java 虛擬機器。
